@@ -126,8 +126,8 @@
                     <i class="fa fa-pencil" aria-hidden="true"></i>自我评价</h2>
                 <hr/>
                 <p>本人在校成绩优秀、乐观向上，工作负责、自我驱动力强、热爱尝试新事物，掌握多种编程语言，具有丰富的
-                    数据处理经验和量化交易经验，基金交易程序的收益率连续 <mark>9</mark>个月超过 <mark>90%</mark> 全国基金用户，
-                    目前拥有大约10个<a href="https://github.com/GreyRaphael?tab=repositories" target="_blank">Github开源项目</a>。
+                    数据处理经验和量化交易经验，基金交易程序的收益率连续 <mark>10</mark>个月超过 <mark>90%</mark> 全国基金用户，
+                    目前拥有大约20个<a href="https://github.com/GreyRaphael?tab=repositories" target="_blank">Github开源项目</a>。
             </p>
 
             </section>
@@ -172,17 +172,31 @@
                 <ul>
                     <li>
                         <h3>
-                            <span>[经历1]中信建投证券衍生品交易部－量化交易应用开发方向（实习）</span>
+                            <span>[实习1]中信建投衍生品交易部－量化交易应用开发助理</span>
                             <time>2020.6.8 - 2020.8.8</time>
                         </h3>
                         <ul class="info-content">
-                            <li>私募基金数据爬虫
-                                <br>
-                                编写Python爬虫程序，获取私募基金数据
+                            <li>
+                                私募基金数据爬虫<br>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                技术栈: Python<br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                编写Python<mark>多线程爬虫</mark>程序，爬取<a href="https://dc.simuwang.com/">私募排排网</a>所有基金的历史数据，用以算法研究
+                                <br/>
                             </li>
-                            <li>模拟深交所交易撮合系统
+                            <li>
+                                深圳交易所模拟撮合系统<br>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                技术栈: Python + Zeroc-Ice<br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                根据<mark>C/S架构</mark>编写客户端、服务端程序。客户端实现模拟自动下单，服务端程序采用<mark>深交所撮合逻辑</mark>撮合本地委托，并验证撮合逻辑的正确性
                                 <br>
-                                技术栈：<mark>Zeroc-Ice, Python</mark>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                增加<mark>接收行情</mark>模块到服务端程序，并单独撮合深交所委托，并验证成交数据的正确性
+                                <br>
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                结合模拟下单和行情数据，利用客户端、服务端程序，测试TWAP, VWAP交易算法
+                                <br>
                             </li>
                         </ul>
                     </li>
@@ -214,10 +228,10 @@
                                 采用<mark>Origin</mark>分析基金历史数据实现<mark>基金挑选</mark>。
                                 采用<mark>Python + Scipy + HTML + MySQL + MongoDB</mark>实现<mark>爬虫获取数据-实时分析数据-推送买卖建议</mark>三个主要模块。
                                 平衡反爬虫和多线程加速，使得该程序只有4s延迟。
-                                并邀请12名用户参与体验&反馈。
+                                并邀请15名用户参与体验&反馈。
                                 <br/>
                                 <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                                [效果]基金收益率连续9个月超过<mark>90%</mark>以上全国基民。
+                                [效果]基金收益率连续10个月超过<mark>90%</mark>以上全国基民。
                                 <a href="https://github.com/GreyRaphael/PlayFund" target="_blank"><i class="fa fa-link" aria-hidden="true"></i>Demo</a>
                             </li>
                         </ul>
@@ -319,7 +333,7 @@
 
     <footer class="footer">
         <p>文档最后更新时间为
-            <time>2020年07月08日</time>.</p>
+            <time>2020年08月08日</time>.</p>
     </footer>
 
     <script src="./assets/js/index.js"></script>
